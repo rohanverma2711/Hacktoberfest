@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style11.css">
+</head>
+<body>
+    <div id="container">
+        <div id = "register">
+            <h1>Student Registration Form </h1>
+        </div>
+        <form id = "form">
+            <label for="name">Name:  </label>
+            <input type = "text" id = "name" placeholder="Enter full Name"><br>
+            <label for = "fname">Father's Name:  </label>
+            <input type = "text" id = "fname" placeholder="Enter Father's Name"><br>
+            <label for = "mname">Enter Mother's name:  </label>
+            <input type = "text" id = "mname" placeholder="Enter mother's name"><br>
+            <label for = "pno">Phone Number:  </label>
+            <input type = "number" id = "pno" placeholder="017xxxxxxxxxx"><br>
+            <label for = "email">Email:  </label>
+            <input type = "email    " id = "email" placeholder="sample@example.com"><br>
+            <label for = "gender">Gender:  </label>
+            <input type = "radio" id = "gender" value = "Male" name = "gender" style = "margin-left: 85px;">
+            <label for = "gender" style = "margin-left: 0px;">Male</label>
+            <input type = "radio" id = "gender" value = "Female" name = "gender">
+            <label for = "gender" style = "margin-left: 0px;">Female</label>
+            <input type = "radio" id = "gender" value = "Other" name = "gender" >
+            <label for = "gender" style = "margin-left: 0px;">Other</label><br>
+            <label for = "dob" >Date of Birth:  </label>
+            <input type = "date" id = "dob"><br>
+            <label for = "address" >Address</label>
+            <input type = "text" id = "address" placeholder="Street-  House-  Road"><br>
+            <label for="blood" >Blood Group:</label>
+            <select name="blood" id="blood" style = "margin-top: 10px;" class = "form-control" >
+                <option value="">Select</option>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+            </select><br>
+            <label for="dept">Department:  </label>
+            <input type="radio" id = "dept1" value = "CSE" name="dept" >
+            <label for="dept1" style = "margin-left: 0px;">CSE</label>
+            <input type="radio" id = "dept2" value = "EEE" name = "dept">
+            <label for = "dept2" style = "margin-left: 0px;">EEE</label>
+            <input type="radio" id = "dept3" value = "BBA" name = "dept">
+            <label for="dept3" style = "margin-left: 0px;">BBA</label>
+            <br>
+            <label for="Course">Course:  </label>
+            <input type="checkbox" value = "C" name = "course1" id = "course1">
+            <label for="course1" style = "margin-left: 0px;">C</label>
+            <input type="checkbox" value = "C++" name = "course2" id = "course2">
+            <label for="course2" style = "margin-left: 0px;">C++</label>
+            <input type="checkbox" value = "java" name = "course3" id = "course3">
+            <label for="course1" style = "margin-left: 0px;">java</label>
+            <input type="checkbox" value = "AI" name = "course4" id = "course4">
+            <label for="course1" style = "margin-left: 0px;">AI</label>
+            <input type="checkbox" value = "ML" name = "course5" id = "course5">
+            <label for="course1" style = "margin-left: 0px;">ML</label>
+            <input type="checkbox" value = "Robotics" name = "course6" id = "course6">
+            <label for="course1" style = "margin-left: 0px;">Robotics</label>
+            <br>
+            <label for = "photo">Photo:  </label>
+            <input type = "file" id = "photo">
+            <br>
+            <input type="submit" value = "Submit" id = "submit">
+            <input type="reset" value = "Reset">
+        </form>
+    </div>
+    <br>
+    <table border="1px" style = "margin: auto; width: 50%; height: 200px;">
+        <caption style = "font-weight: bold; font-size: 30px;">Table</caption>
+        <thead>
+            <tr>
+                <th>SNo.</th>
+                <th>Name</th>
+                <th>Phone number</th>
+                <th>Gender</th>
+                <th>City</th>
+                <th>Hobbies</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Rohan</td>
+                <td>9812345678</td>
+                 <td>Male</td>
+                 <td>Agra</td>
+                 <td>Reading</td>
+            </tr>
+            <tr>
+                <td rowspan = "3">2</td>
+                <td rowspan = "3">Sohan</td>
+                <td rowspan = "3">9812346538</td>
+                <td rowspan = "3">Male</td>
+                <td rowspan = "3">Mathura</td>
+                <td>Dancing</td>
+            </tr>
+            <tr>
+                <td>
+                    Cricket
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Content Writing
+                </td>
+            </tr>
+            <tr>
+                <td >3</td>
+                <td >Atul</td>
+                <td >9812319858</td>
+                <td >Female</td>
+                <td >Delhi</td>
+                    <td>Coding</td>
+                
+            </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>
